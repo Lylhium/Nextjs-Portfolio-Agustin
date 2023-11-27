@@ -5,7 +5,7 @@ import AboutMe from "@/components/about";
 import Footer from "@/components/footer";
 import Contact from "@/components/contact";
 import { HeroComponent } from "@/components/hero";
-import PortfolioComponent from "@/components/Portfolio";
+import PortfolioComponent from "@/components/portfolio";
 
 export default function Home() {
   return (
