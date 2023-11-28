@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function PortfolioComponent() {
   return (
@@ -17,7 +18,7 @@ export default function PortfolioComponent() {
                 href='https://movies-proyect-sotelius-utcx.vercel.app/'
                 target='_blank'
               >
-                <img
+                <Image
                   alt='Sotelius Movies'
                   className='aspect-[1/1] object-cover object-center'
                   height='500'
@@ -50,11 +51,11 @@ export default function PortfolioComponent() {
                 href='https://angry-mestorf-fbb8cc.netlify.app/'
                 target='_blank'
               >
-                <img
+                <Image
                   alt='Website 2'
                   className='aspect-[1/1] object-cover object-center'
                   height='500'
-                  src='./assets/coco.png'
+                  src='/assets/coco.png'
                   width='500'
                 />
               </Link>
@@ -82,11 +83,11 @@ export default function PortfolioComponent() {
                 href='https://lylhium.github.io/weather-app'
                 target='_blank'
               >
-                <img
+                <Image
                   alt='Website 3'
                   className='aspect-[1/1] object-cover object-center'
                   height='500'
-                  src='./assets/weather.png'
+                  src='/assets/weather.png'
                   width='500'
                 />
               </Link>

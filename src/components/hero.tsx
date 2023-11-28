@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export function HeroComponent() {
   return (
     <section className='w-full py-7 bg-white dark:bg-gray-800  '>
@@ -16,16 +18,16 @@ export function HeroComponent() {
             <p className='mx-auto max-w-[400px] text-gray-600 dark:text-gray-400 text-xl '></p>
           </div>
           <div className='w-full sm:w-1/2 lg:w-1/3 xl:w-1/4'>
-            <img
+            <Image
               alt='pfp'
               className='mx-auto object-cover rounded-full shadow-lg '
-              height='400'
+              height={400}
               src='/assets/yo-pic.jpg'
+              width={350}
               style={{
                 aspectRatio: "200/200",
                 objectFit: "cover",
               }}
-              width='350'
             />
           </div>
         </div>

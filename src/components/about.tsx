@@ -1,6 +1,6 @@
 import { FaGithub } from "react-icons/fa";
 import { SiExpress } from "react-icons/si";
-
+import Image from "next/image";
 export default function AboutMe() {
   return (
     <div className='w-full py-12 bg-white dark:bg-gray-800'>
@@ -28,140 +28,173 @@ export default function AboutMe() {
           </h2>
           <div className='flex flex-wrap justify-center gap-4 py-8'>
             <div className='flex items-center space-x-2 bg-slate-200 px-2 py-1 rounded-lg text-black'>
-              <img
+              <Image
+                alt='react'
                 src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg'
-                className='w-10 h-10'
+                width={24}
+                height={24}
               />
 
               <div>React</div>
             </div>
             <div className='flex items-center space-x-2 bg-slate-200 px-2 py-1 rounded-lg text-black'>
-              <img
+              <Image
+                alt='native'
                 src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg'
-                className='w-10 h-10'
+                width={24}
+                height={24}
               />
 
               <div>React Native</div>
             </div>
             <div className='flex items-center space-x-2 bg-slate-200 px-2 py-1 rounded-lg text-black'>
-              <img
+              <Image
+                alt='next'
                 src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg'
-                className='w-10 h-10'
+                width={24}
+                height={24}
               />
 
               <div>Next.Js</div>
             </div>
             <div className='flex items-center space-x-2 bg-slate-200 px-2 py-1 rounded-lg text-black'>
-              <img
+              <Image
+                alt='ts'
                 src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg'
-                className='w-10 h-10'
+                width={24}
+                height={24}
               />
 
               <div>TypeScript</div>
             </div>
             <div className='flex items-center space-x-2 bg-slate-200 px-2 py-1 rounded-lg text-black'>
-              <img
+              <Image
+                alt='Js'
                 src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg'
-                className=' h-10 w-10'
+                width={24}
+                height={24}
               />
 
               <div>JavaScript</div>
             </div>
             <div className='flex items-center space-x-2 bg-slate-200 px-2 py-1 rounded-lg text-black'>
-              <img
+              <Image
+                alt='html'
                 src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg'
-                className='h-10 w-10'
+                width={24}
+                height={24}
               />
 
               <div>HTML</div>
             </div>
             <div className='flex items-center space-x-2 bg-slate-200 px-2 py-1 rounded-lg text-black'>
-              <img
+              <Image
+                alt='css'
                 src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg'
-                className='h-10 w-10'
+                width={24}
+                height={24}
               />
 
               <div>CSS</div>
             </div>
             <div className='flex items-center space-x-2 bg-slate-200 px-2 py-1 rounded-lg text-black'>
-              <img
+              <Image
+                alt='sass'
                 src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg'
-                className='h-10 w-10'
+                width={24}
+                height={24}
               />
 
               <div>Sass</div>
             </div>
             <div className='flex items-center space-x-2 bg-slate-200 px-2 py-1 rounded-lg text-black'>
-              <img
+              <Image
+                alt='tailwind'
                 src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg'
-                className='h-10 w-10'
+                width={24}
+                height={24}
               />
 
               <div>Tailwind</div>
             </div>
             <div className='flex items-center space-x-2 bg-slate-200 px-2 py-1 rounded-lg text-black'>
-              <FaGithub className='h-10 w-10' />
+              <FaGithub width={24} height={24} />
               <div>GitHub</div>
             </div>
+
             <div className='flex items-center space-x-2 bg-slate-200 px-2 py-1 rounded-lg text-black'>
-              <img
+              <Image
+                alt='git'
                 src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg'
-                className='h-10 w-10'
+                width={24}
+                height={24}
               />
 
               <div>Git</div>
             </div>
             <div className='flex items-center space-x-2 bg-slate-200 px-2 py-1 rounded-lg text-black'>
-              <img
+              <Image
+                alt='wordpress'
                 src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg'
-                className='h-10 w-10'
+                width={24}
+                height={24}
               />
 
               <div>WordPress</div>
             </div>
             <div className='flex items-center space-x-2 bg-slate-200 px-2 py-1 rounded-lg text-black'>
-              <img
+              <Image
+                alt='node'
                 src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg'
-                className='h-10 w-10'
+                width={24}
+                height={24}
               />
 
               <div>Node.js</div>
             </div>
 
             <div className='flex items-center space-x-2 bg-slate-200 px-2 py-1 rounded-lg text-black'>
-              <SiExpress className='h-10 w-10' />
+              <SiExpress width={24} height={24} />
               <div>Express.js</div>
             </div>
             <div className='flex items-center space-x-2 bg-slate-200 px-2 py-1 rounded-lg text-black'>
-              <img
+              <Image
+                alt='mongodb'
                 src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg'
-                className='h-10 w-10'
+                width={24}
+                height={24}
               />
 
               <div>MongoDB</div>
             </div>
 
             <div className='flex items-center space-x-2 bg-slate-200 px-2 py-1 rounded-lg text-black'>
-              <img
+              <Image
+                alt='docker'
                 src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg'
-                className='h-10 w-10'
+                width={24}
+                height={24}
               />
 
               <div>Docker</div>
             </div>
 
             <div className='flex items-center space-x-2 bg-slate-200 px-2 py-1 rounded-lg text-black'>
-              <img
+              <Image
+                alt='handlebars'
                 src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/handlebars/handlebars-original.svg'
-                className='h-10 w-10'
+                width={24}
+                height={24}
               />
 
               <div>Handlebars</div>
             </div>
             <div className='flex items-center space-x-2 bg-slate-200 px-2 py-1 rounded-lg text-black'>
-              <img
+              <Image
+                alt='npm'
                 src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg'
-                className='h-10 w-10'
+                width={24}
+                height={24}
               />
 
               <div>NPM</div>
