@@ -1,10 +1,15 @@
 import Link from "next/link";
 import React from "react";
-
+import { motion } from "framer-motion";
 const Contact = () => {
   return (
     <section className='w-full py-12 bg-white dark:bg-gray-800'>
-      <div className='container mx-auto px-4 md:px-6'>
+      <motion.div
+        className='container mx-auto px-4 md:px-6'
+        initial={{ y: 25, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ delay: 0.2, duration: 0.75 }}
+      >
         <div className='flex flex-col items-center justify-center space-y-6'>
           <div className='space-y-2 text-center'>
             <h1 className='text-4xl font-bold tracking-tighter sm:text-5xl lg:text-6xl pb-5 '>
@@ -33,7 +38,7 @@ const Contact = () => {
             </Link>
           </div>
         </div>
-      </div>
+      </motion.div>
     </section>
   );
 };

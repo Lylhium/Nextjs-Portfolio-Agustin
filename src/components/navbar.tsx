@@ -1,5 +1,6 @@
 "use client";
 import React, { useState, useEffect } from "react";
+import { motion } from "framer-motion";
 
 export const Navbar = () => {
   const [isScrolledUp, setIsScrolledUp] = useState(true);
@@ -39,12 +40,17 @@ export const Navbar = () => {
   }`;
 
   return (
-    <div className={navbarClasses}>
+    <motion.div
+      className={navbarClasses}
+      initial={{ y: 25, opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
+      transition={{ duration: 0.75 }}
+    >
       <div className='flex-1'>
         <a className='btn btn-ghost text-xl text-white' onClick={scrollToTop}>
           agustín .dev
         </a>
       </div>
-    </div>
+    </motion.div>
   );
 };

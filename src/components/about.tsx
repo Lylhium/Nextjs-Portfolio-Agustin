@@ -1,9 +1,16 @@
 import { FaGithub } from "react-icons/fa";
 import { SiExpress } from "react-icons/si";
 import Image from "next/image";
+import { motion } from "framer-motion";
+
 export default function AboutMe() {
   return (
-    <div className='w-full py-12 bg-white dark:bg-gray-800'>
+    <motion.div
+      className='w-full py-12 bg-white dark:bg-gray-800'
+      initial={{ y: 25, opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
+      transition={{ delay: 0.2, duration: 0.75 }}
+    >
       <div className='container mx-auto px-4 md:px-6'>
         <div className='flex flex-col items-center justify-center space-y-6'>
           <div className='space-y-2 text-center'>
@@ -12,9 +19,8 @@ export default function AboutMe() {
             </h1>
             <br />
             <p className='mx-auto max-w-[700px] text-gray-600 dark:text-gray-400 text-xl'>
-              I'm a Front-end Developer from Argentina, Buenos aires. I'm very
-              passionate about creating interactive applications and different
-              user experiences.{" "}
+              I'm from Argentina, Buenos aires. I'm very passionate about
+              creating interactive applications and different user experiences.{" "}
             </p>
             <br />
             <p className='mx-auto max-w-[700px] text-gray-600 dark:text-gray-400 text-xl'>
@@ -202,6 +208,6 @@ export default function AboutMe() {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
