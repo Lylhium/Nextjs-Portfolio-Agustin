@@ -21,7 +21,7 @@ export function Hero() {
               Experienced with all stages of the development cycle for dynamic
               web projects.
             </p>
-            <button className='mx-auto max-w-[400px] text-gray-600 dark:text-gray-700 dark:bg-gray-200 dark:hover:bg-darkbut text-xl pt-2 bg-gray-200 hover:bg-gray-400 hover:text-white rounded-lg px-2 py-2 '>
+            <button className='mx-auto max-w-[400px] transition-colors text-gray-600 dark:text-gray-700 dark:bg-gray-200 dark:hover:bg-darkbut text-xl pt-2 bg-gray-200 hover:bg-gray-400 hover:text-white rounded-full px-3 py-2 '>
               <a
                 href='/assets/PortfolioEnglish2024.pdf'
                 download='Agustin_CV'
