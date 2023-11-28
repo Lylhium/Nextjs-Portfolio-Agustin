@@ -5,7 +5,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 const Footer = () => {
   return (
-    <footer className='footer footer-center p-10 bg-base-200 text-base-content rounded'>
+    <footer className='footer footer-center p-10 bg-base-200 dark:dark:bg-darkbut text-base-content rounded'>
       <nav>
         <motion.div
           className='grid grid-flow-col gap-10'

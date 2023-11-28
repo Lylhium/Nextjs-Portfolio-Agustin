@@ -3,7 +3,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 export default function PortfolioComponent() {
   return (
-    <section className='w-full py-12 bg-white dark:bg-gray-800'>
+    <section className='w-full py-12 bg-white dark:bg-dark'>
       <motion.div
         className='container mx-auto px-4 md:px-6'
         initial={{ y: 25, opacity: 0 }}
@@ -31,7 +31,7 @@ export default function PortfolioComponent() {
                   width='500'
                 />
               </Link>
-              <div className='p-6 bg-white dark:bg-gray-800'>
+              <div className='p-6 bg-white dark:bg-darkbut'>
                 <h3 className='text-xl font-bold text-gray-800 dark:text-gray-50'>
                   Sotelius Movies
                 </h3>
@@ -45,7 +45,9 @@ export default function PortfolioComponent() {
                     href='https://movies-proyect-sotelius-utcx.vercel.app/'
                     target='_blank'
                   >
-                    Visit Site
+                    <button className='mx-auto max-w-[400px] text-gray-600 dark:text-gray-700 dark:bg-gray-200 dark:hover:bg-gray-700 text-xl pt-2 bg-gray-200 hover:bg-gray-400 hover:text-white rounded-lg px-2 py-2 '>
+                      Visit Site
+                    </button>
                   </Link>
                 </div>
               </div>
@@ -64,7 +66,7 @@ export default function PortfolioComponent() {
                   width='500'
                 />
               </Link>
-              <div className='p-6 bg-white dark:bg-gray-800'>
+              <div className='p-6 bg-white dark:bg-darkbut'>
                 <h3 className='text-xl font-bold text-gray-800 dark:text-gray-50'>
                   Coco Light
                 </h3>
@@ -77,7 +79,9 @@ export default function PortfolioComponent() {
                     href='https://angry-mestorf-fbb8cc.netlify.app/'
                     target='_blank'
                   >
-                    Visit Site
+                    <button className='mx-auto max-w-[400px] text-gray-600 dark:text-gray-700 dark:bg-gray-200 dark:hover:bg-gray-700 text-xl pt-2 bg-gray-200 hover:bg-gray-400 hover:text-white rounded-lg px-2 py-2 '>
+                      Visit Site
+                    </button>
                   </Link>
                 </div>
               </div>
@@ -96,7 +100,7 @@ export default function PortfolioComponent() {
                   width='500'
                 />
               </Link>
-              <div className='p-6 bg-white dark:bg-gray-800'>
+              <div className='p-6 bg-white dark:bg-darkbut'>
                 <h3 className='text-xl font-bold text-gray-800 dark:text-gray-50'>
                   Lilius Weather
                 </h3>
@@ -110,7 +114,9 @@ export default function PortfolioComponent() {
                     href='https://lylhium.github.io/weather-app'
                     target='_blank'
                   >
-                    Visit Site
+                    <button className='mx-auto max-w-[400px] text-gray-600 dark:text-gray-700 dark:bg-gray-200 dark:hover:bg-gray-700 text-xl pt-2 bg-gray-200 hover:bg-gray-400 hover:text-white rounded-lg px-2 py-2 '>
+                      Visit Site
+                    </button>
                   </Link>
                 </div>
               </div>

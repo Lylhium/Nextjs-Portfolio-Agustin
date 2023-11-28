@@ -1,14 +1,16 @@
 "use client";
+//components
 import { Navbar } from "@/components/navbar";
-import { CircleIndicator } from "@/components/circleIndicator";
-//Components
-import AboutMe from "@/components/about";
 import Footer from "@/components/footer";
-import Contact from "@/components/contact";
-import { HeroComponent } from "@/components/hero";
-import PortfolioComponent from "@/components/portfolio";
+
+//Pages
+import { Hero } from "./hero/hero";
+import About from "@/app/about/about";
+import Portfolio from "@/app/portfolio/portfolio";
+import Contact from "@/app/contact/contact";
 //framermotion
 import { AnimatePresence, motion } from "framer-motion";
+
 export default function Home() {
   return (
     <main className=''>
@@ -36,9 +38,9 @@ export default function Home() {
           }}
         >
           <Navbar />
-          <HeroComponent />
-          <AboutMe />
-          <PortfolioComponent />
+          <Hero />
+          <About />
+          <Portfolio />
           <Contact />
           <Footer />
         </motion.div>

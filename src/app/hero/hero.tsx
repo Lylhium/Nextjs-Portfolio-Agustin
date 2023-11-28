@@ -1,9 +1,9 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 
-export function HeroComponent() {
+export function Hero() {
   return (
-    <section className='w-full py-7 bg-white dark:bg-gray-800  '>
+    <section className='w-full py-7 bg-white dark:bg-dark '>
       <motion.div
         initial={{ y: 25, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
@@ -21,7 +21,7 @@ export function HeroComponent() {
               Experienced with all stages of the development cycle for dynamic
               web projects.
             </p>
-            <button className='mx-auto max-w-[400px] text-gray-600 dark:text-gray-400 text-xl pt-2 bg-gray-200 hover:bg-gray-400 hover:text-white rounded-lg px-2 py-2 '>
+            <button className='mx-auto max-w-[400px] text-gray-600 dark:text-gray-700 dark:bg-gray-200 dark:hover:bg-darkbut text-xl pt-2 bg-gray-200 hover:bg-gray-400 hover:text-white rounded-lg px-2 py-2 '>
               <a
                 href='/assets/PortfolioEnglish2024.pdf'
                 download='Agustin_CV'

@@ -15,6 +15,8 @@ const config: Config = {
       },
       colors: {
         custom: "#231715",
+        dark: "#1a1a1d",
+        darkbut: "#0e0e0f",
       },
     },
   },
