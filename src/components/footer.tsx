@@ -34,7 +34,9 @@ const Footer = () => {
         </motion.div>
       </nav>
       <aside>
-        <p>Developed by Agustín Pfarherr </p>
+        <div className='font-bold'>
+          Developed by <span className='text-orange-500'>Agustín Pfarherr</span>{" "}
+        </div>
       </aside>
     </footer>
   );

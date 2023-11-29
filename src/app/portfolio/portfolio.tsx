@@ -45,7 +45,7 @@ export default function PortfolioComponent() {
                     href='https://movies-proyect-sotelius-utcx.vercel.app/'
                     target='_blank'
                   >
-                    <button className='mx-auto max-w-[400px] transition-colors text-gray-600 dark:text-gray-700 dark:bg-gray-200 dark:hover:bg-dark text-xl pt-2 bg-gray-200 hover:bg-gray-400 hover:text-white rounded-full px-3 py-2 '>
+                    <button className='mx-auto max-w-[400px] transition-colors text-white dark:hover:bg-orange-800 text-md pt-2 bg-orange-500 hover:bg-gray-700 hover:text-white rounded-full px-3 py-2 '>
                       Visit Site
                     </button>
                   </Link>
@@ -79,7 +79,7 @@ export default function PortfolioComponent() {
                     href='https://angry-mestorf-fbb8cc.netlify.app/'
                     target='_blank'
                   >
-                    <button className='mx-auto max-w-[400px] transition-colors text-gray-600 dark:text-gray-700 dark:bg-gray-200 dark:hover:bg-dark text-xl pt-2 bg-gray-200 hover:bg-gray-400 hover:text-white rounded-full px-3 py-2 '>
+                    <button className='mx-auto max-w-[400px] transition-colors text-white dark:hover:bg-orange-800 text-md pt-2 bg-orange-500 hover:bg-gray-700 hover:text-white rounded-full px-3 py-2 '>
                       Visit Site
                     </button>
                   </Link>
@@ -114,7 +114,7 @@ export default function PortfolioComponent() {
                     href='https://lylhium.github.io/weather-app'
                     target='_blank'
                   >
-                    <button className='mx-auto max-w-[400px] transition-colors text-gray-600 dark:text-gray-700 dark:bg-gray-200 dark:hover:bg-dark text-xl pt-2 bg-gray-200 hover:bg-gray-400 hover:text-white rounded-full px-3 py-2 '>
+                    <button className='mx-auto max-w-[400px] transition-colors text-white dark:hover:bg-orange-800 text-md  pt-2 bg-orange-500 hover:bg-gray-700 hover:text-white rounded-full px-3 py-2 '>
                       Visit Site
                     </button>
                   </Link>

@@ -13,7 +13,7 @@ import { AnimatePresence, motion } from "framer-motion";
 
 export default function Home() {
   return (
-    <main className=''>
+    <main>
       <AnimatePresence mode='wait'>
         <motion.div
           initial='initialState'

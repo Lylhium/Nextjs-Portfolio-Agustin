@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 export function Hero() {
   return (
-    <section className='w-full py-7 bg-white dark:bg-dark '>
+    <section className='w-full py-8 bg-white dark:bg-dark '>
       <motion.div
         initial={{ y: 25, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
@@ -17,11 +17,11 @@ export function Hero() {
               <span className=''> Agustín Pfarherr </span>
             </h1>
             <p className='mx-auto max-w-[400px] text-gray-600 dark:text-gray-400 text-xl py-2 '>
-              I'm a Web Developer specialized in Front-end development.
-              Experienced with all stages of the development cycle for dynamic
-              web projects.
+              I'm a <span className='text-orange-500'>Web Developer</span>{" "}
+              specialized in Front-end development. Experienced with all stages
+              of the development cycle for dynamic web projects.
             </p>
-            <button className='mx-auto max-w-[400px] transition-colors text-white dark:text-gray-700 dark:bg-gray-200 dark:hover:bg-dark text-xl pt-2 bg-darkbut hover:bg-gray-700 hover:text-white rounded-full px-3 py-2 '>
+            <button className='mx-auto max-w-[400px] transition-colors text-white dark:hover:bg-orange-800 text-xl pt-2 bg-orange-500 hover:bg-gray-700 hover:text-white rounded-full px-3 py-2 '>
               <a
                 href='/assets/PortfolioEnglish2024.pdf'
                 download='Agustin_CV'

@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { EB_Garamond } from "next/font/google";
+import { EB_Garamond, Roboto } from "next/font/google";
 import "./globals.css";
 
-const inter = EB_Garamond({
+const inter = Roboto({
   subsets: ["latin"],
   weight: "400",
 });

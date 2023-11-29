@@ -48,7 +48,7 @@ export const Navbar = () => {
     >
       <div className='flex-1'>
         <a className='btn btn-ghost text-xl text-white' onClick={scrollToTop}>
-          agustín .dev
+          agustín <span className='text-orange-500'>.dev</span>
         </a>
       </div>
     </motion.div>

@@ -10,10 +10,10 @@ const Contact = () => {
         animate={{ y: 0, opacity: 1 }}
         transition={{ delay: 0.2, duration: 0.75 }}
       >
-        <div className='flex flex-col items-center justify-center space-y-6'>
+        <div className='flex flex-col items-center justify-center space-y-6 pb-10'>
           <div className='space-y-2 text-center'>
             <h1 className='text-4xl font-bold tracking-tighter sm:text-5xl lg:text-6xl pb-5 '>
-              Contact me:
+              Contact me
             </h1>
             <Link
               target='_blank'
